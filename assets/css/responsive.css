@@ -1,0 +1,3656 @@
+/* ============ megamenu starts ============ */
+
+@media all and (min-width: 992px) {
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+    .navbar .dropdown-menu-end {
+        right: 0;
+        left: auto;
+    }
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+    .navbar .nav-item:hover .nav-link {
+        color: var(--color-white);
+    }
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+        background-color: var(--color-white);
+        font-family: 'Rubik';
+    }
+    li.nav-item.dropdown:not(:last-child) {
+        margin-right: 10px;
+    }
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+    .col-megamenu ul li a {
+        color: #08302a;
+    }
+    .mobile-menu-top {
+        padding: 0 50px;
+    }
+    .navbar .nav-item .megamenu {
+        padding: 20px 100px 12px;
+    }
+}
+
+
+/* ============ megamenu ends here ============ */
+
+@media (max-width: 1550px) {
+    .hero_text h1 {
+        font-size: 140px;
+        z-index: 9;
+    }
+    .hero_image {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .landing_story .card_image_rsvp1,
+    .landing_story .card_image_rsvp2 {
+        width: 58%;
+    }
+    /* -------------------------- homepage starts here -------------------------- */
+    .about_us_bg:before {
+        width: 250px;
+        height: 340px;
+    }
+    .about_us_bg:after {
+        width: 150px;
+        height: 380px;
+    }
+    .hero_text h1 {
+        font-size: 110px;
+    }
+    .getting_married_text h4 {
+        font-size: 40px;
+    }
+    /* ------------------------- custom starts here ------------------------- */
+    /* -------------------------- homepage ends here -------------------------- */
+    .c-container-padding {
+        padding: 0 100px;
+    }
+    /* ------------------------- custom ends here ------------------------- */
+    /* ------------------------- about page starts here ------------------------- */
+    .about-couple .couple-left h5::before {
+        width: 35px;
+        height: 29px;
+        left: -40px;
+        top: 15px;
+        background-size: contain;
+    }
+    .about-couple .couple-right h5::before {
+        width: 35px;
+        height: 29px;
+        right: -40px;
+        top: 15px;
+        background-size: contain;
+    }
+    /* ------------------------- about page ends here ------------------------- */
+    /* ----------------------- blog single page start here ---------------------- */
+    .blog_sidemain_image:after {
+        height: 230px;
+        width: 210px;
+        top: -1px;
+        left: 40%;
+    }
+    .social_content {
+        width: 54px;
+        height: 54px;
+        transform: scale(0.9);
+    }
+    .cstm_pl {
+        padding-left: 50px;
+    }
+    /* ----------------------- blog single page end ---------------------- */
+    /* ----------------------- RSVP page start ---------------------- */
+    .about_single_content.rsvp_adust p {
+        width: 100%;
+    }
+    /* ----------------------- RSVP page end ---------------------- */
+}
+
+@media (max-width: 1390px) {
+    .moment-above-img {
+        bottom: -170px;
+    }
+    .attendance_sec {
+        padding: 100px 0;
+    }
+    .attendance_sec h2 {
+        font-size: 60px;
+    }
+    /* ------------------------- about page starts ------------------------- */
+    .our-moments-wrapper {
+        margin-bottom: 175px;
+    }
+    /* ------------------------- about page ends ------------------------- */
+    /* ------------------------- Cover Boxes page starts ------------------------- */
+    .image_cover_content p {
+        -webkit-line-clamp: 4;
+    }
+    /* ------------------------- Cover Boxes page ends ------------------------- */
+}
+
+@media (max-width: 1280px) {
+    .pages_inside {
+        margin-top: 50px;
+    }
+    .landing_inside h1 {
+        font-size: 160px;
+    }
+    .landing_inside .main_title h5 {
+        font-size: 30px;
+    }
+    /* -------------------- custom container css starts -------------------- */
+    .c-container-padding {
+        padding: 0 50px;
+    }
+    /* -------------------- custom container css ends -------------------- */
+    /* ------------------------- Home page starts ------------------------- */
+    .video_sec {
+        height: 430px;
+    }
+    /* ------------------------- Home page ends ------------------------- */
+    /* ------------------------- about page starts ------------------------- */
+    .couple-container {
+        padding: 0 50px;
+    }
+    .about-couple::before {
+        width: 234px;
+        height: 200px;
+    }
+    .plan-group-top {
+        margin-top: 40px;
+    }
+    .c-container-padding {
+        padding: 0 30px;
+    }
+    .about-progress {
+        padding-left: 60px;
+    }
+    .about-progress::before {
+        opacity: 0.5;
+        top: -125px;
+        left: -135px;
+    }
+    .about-getting-married {
+        max-width: 90%;
+    }
+    .progress-value-wrapper .examples {
+        padding: 5px 25px;
+    }
+    .progress-value {
+        padding: 5px 25px;
+    }
+    .mates_inner .rsvp_icon_content {
+        height: 211px;
+        width: 211px;
+        margin: auto;
+    }
+    .couple-center .footer_main img {
+        max-width: 220px;
+    }
+    .first_let,
+    .last_let {
+        font-size: 60px;
+    }
+    .couple_image {
+        width: 240px;
+    }
+    .name_footer {
+        height: 80px;
+    }
+    .couple-right {
+        order: 3;
+        margin-top: 30px;
+    }
+    .couple-center {
+        order: 2;
+    }
+    .couple-left {
+        order: 1;
+        margin-top: 20px;
+    }
+    /* ------------------------- about page ends ------------------------- */
+    /* -------------------------- blog page starts ------------------------- */
+    .blog_single_content {
+        padding: 15px;
+    }
+    /* -------------------------- blog page ends ------------------------- */
+    /* -------------------------- rsvp page starts ------------------------- */
+    .card_right_design img {
+        max-width: 250px;
+    }
+    .rsvp_icon_content {
+        max-width: 250px;
+        height: 250px;
+        margin-top: -45%;
+    }
+    .inner_form {
+        padding: 30px;
+    }
+    .about_single_content.rsvp_adust p {
+        width: 100%;
+    }
+    /* -------------------------- rsvp page ends ------------------------- */
+    /* -------------------------- story  page starts ------------------------- */
+    .story_couple .story_couple_text p {
+        max-width: 70%;
+    }
+    .story_couple .story_couple_text h4 {
+        max-width: 95%;
+    }
+    .m-flex {
+        align-items: center;
+        justify-content: center;
+    }
+    .story_couple .story_couple_image img {
+        position: unset;
+        width: 100%;
+    }
+    .story_couple .story_couple_text {
+        padding: 60px 0px;
+    }
+    .story_couple::before {
+        opacity: .2;
+    }
+    /* -------------------------- story page ends ------------------------- */
+}
+
+@media (max-width: 1200px) {
+    .moment-above-img {
+        bottom: -265px;
+    }
+    .about_single_title {
+        font-size: 20px;
+    }
+    /* --------------------------- about starts --------------------------- */
+    .our-moments-wrapper {
+        margin-bottom: 255px;
+    }
+    /* --------------------------- about ends --------------------------- */
+    /* ------------------------- Cover Boxes page starts ------------------------- */
+    .image_cover_content p {
+        -webkit-line-clamp: 4;
+    }
+    .image_cover img {
+        height: 180px;
+        object-fit: cover;
+    }
+    /* ------------------------- Cover Boxes page ends ------------------------- */
+}
+
+@media (max-width: 1024px) {
+    .landing_story.story_couple .card_right_design img {
+        max-width: 200px;
+    }
+    .landing_inside h1 {
+        font-size: 130px;
+    }
+    .scroll_page,
+    .scroll_page img.page {
+        height: 700px;
+    }
+    /* --------------------------- megamenu starts --------------------------- */
+    .dropdown-menu.megamenu::before {
+        height: 163px;
+        width: 207px;
+        background-size: contain;
+        right: -50px;
+        bottom: -30px;
+    }
+    /* --------------------------- megamenu ends --------------------------- */
+    /* -------------------------- homepage starts -------------------------- */
+    .rsvp_sec:before,
+    .rsvp_sec:after {
+        width: 20%;
+        height: 200px;
+    }
+    .video_sec {
+        height: 350px;
+    }
+    .video-play-button {
+        width: 26px;
+        height: 32px;
+        padding: 8px 17px 14px 21px;
+    }
+    .hero_text h1 {
+        font-size: 100px;
+    }
+    .wed_details_content_left_text p {
+        margin-bottom: 18px;
+    }
+    .btn_primary {
+        font-size: 15px;
+    }
+    .hero_image {
+        width: 300px;
+        height: 300px;
+    }
+    .hero_image:before {
+        width: 150px;
+        height: 150px;
+        top: -25px;
+        left: -70px;
+    }
+    .hero_image:after {
+        width: 150px;
+        height: 150px;
+        bottom: -25px;
+        right: -85px;
+    }
+    .getting_married_text h4 {
+        margin-top: 35px;
+    }
+    .getting_married_text h4:before,
+    .getting_married_text h4:after {
+        width: 70px;
+        height: 35px;
+    }
+    .wed_details_content.first:before {
+        width: 450px;
+        height: 450px;
+        top: -110px;
+        left: -130px;
+    }
+    .wed_details_content.last:before {
+        width: 450px;
+        height: 450px;
+        bottom: -110px;
+        right: -110px;
+    }
+    /* -------------------------- homepage ends -------------------------- */
+    /* --------------------------- about starts --------------------------- */
+    .m-ac-couple {
+        width: 80% !important;
+        margin: 0 auto;
+        display: flex;
+    }
+    .about-couple .couple-left p,
+    .about-couple .couple-right p {
+        max-width: none;
+    }
+    .couple-center {
+        order: 1;
+    }
+    .couple-left {
+        order: 2;
+    }
+    .about-couple .m-flex {
+        flex-direction: column;
+    }
+    .couple_image {
+        width: 270px;
+    }
+    .c-about-progress-top::before {
+        width: 250px;
+        height: 329px;
+        bottom: -60px;
+    }
+    .mate_single.rsvp_icon_content {
+        max-width: none;
+    }
+    /* --------------------------- about ends --------------------------- */
+    /* --------------------------- gallery page starts --------------------------- */
+    .newsletter_action button {
+        min-width: inherit;
+    }
+    /* --------------------------- gallery page ends --------------------------- */
+    /* ---------------------- Blog Masonry page start --------------------- */
+    .blog_masonry {
+        column-count: 3;
+    }
+    .grid {
+        width: 33.33%;
+    }
+    /* ---------------------- Blog Masonry page endt --------------------- */
+    /* ---------------------- blog single page starts --------------------- */
+    .cstm_pl {
+        padding-left: 15px;
+    }
+    /* ---------------------- blog single page ends --------------------- */
+    /* ----------------------- blog grid page starts ----------------------- */
+    .blog_card_container {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* ----------------------- blog grid page ends ----------------------- */
+    /* -------------------------- rsvp page starts ------------------------- */
+    .rsvp_icon_content {
+        max-width: 210px;
+        height: 210px;
+        margin-top: -50%;
+    }
+    .about_single_content.rsvp_adust img {
+        height: 65px;
+        width: auto;
+    }
+    /* -------------------------- rsvp page ends ------------------------- */
+    .attendance_sec:before,
+    .attendance_sec:after {
+        opacity: 0.5;
+    }
+    .attendance_sec {
+        padding: 50px 0;
+    }
+    .celebrate_sec .main_title {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+    .landing_story.story_couple .story_couple_text {
+        padding: 60px 10px 0;
+    }
+    .landing_story.story_couple .card_rsvp_container {
+        margin-bottom: 80px;
+    }
+    /* ----------------------- Dropcaps start ---------------------- */
+    .dropdcaps_wrapper p {
+        margin-bottom: 30px;
+    }
+    /* ----------------------- Dropcaps end ---------------------- */
+    /* ----------------------- Column start ---------------------- */
+    .columns h4 {
+        font-size: 30px;
+    }
+    /* ----------------------- Column end ---------------------- */
+    /* ----------------------- Cover Boxes start ---------------------- */
+    .image_cover img {
+        height: auto;
+    }
+    .flip-card-back {
+        padding: 8px;
+    }
+    .flip-card-back p {
+        font-size: 14px;
+    }
+    .cover_content_main ul li {
+        position: initial;
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cover_content_main ul {
+        width: 100%;
+        height: initial!important;
+    }
+    .cover_content_main ul li .image_cover_content {
+        opacity: 1;
+    }
+    .cover_content_main ul li .cover_content {
+        display: flex;
+        align-items: center;
+    }
+    /* ----------------------- Cover Boxes end ---------------------- */
+    /* ------------------------- footer css starts ------------------------- */
+    .first_let,
+    .last_let {
+        font-size: 70px;
+        /* ============ megamenu starts ============ */
+        @media all and (min-width: 992px) {
+            .navbar .has-megamenu {
+                position: static !important;
+            }
+            .navbar .megamenu {
+                left: 0;
+                right: 0;
+                width: 100%;
+                margin-top: 0;
+            }
+            .navbar .dropdown-menu-end {
+                right: 0;
+                left: auto;
+            }
+            .navbar .nav-item .dropdown-menu {
+                display: block;
+                opacity: 0;
+                visibility: hidden;
+                transition: .3s;
+                margin-top: 0;
+            }
+            .navbar .nav-item:hover .nav-link {
+                color: var(--color-white);
+            }
+            .navbar .dropdown-menu.fade-down {
+                top: 80%;
+                transform: rotateX(-75deg);
+                transform-origin: 0% 0%;
+                background-color: var(--color-white);
+                font-family: 'Rubik';
+            }
+            li.nav-item.dropdown:not(:last-child) {
+                margin-right: 10px;
+            }
+            .navbar .dropdown-menu.fade-up {
+                top: 180%;
+            }
+            .navbar .nav-item:hover .dropdown-menu {
+                transition: .3s;
+                opacity: 1;
+                visibility: visible;
+                top: 100%;
+                transform: rotateX(0deg);
+            }
+            .col-megamenu ul li a {
+                color: #08302a;
+            }
+            .mobile-menu-top {
+                padding: 0 50px;
+            }
+            .navbar .nav-item .megamenu {
+                padding: 20px 100px 12px;
+            }
+        }
+        /* ============ megamenu ends here ============ */
+        @media (max-width: 1550px) {
+            .hero_text h1 {
+                font-size: 140px;
+                z-index: 9;
+            }
+            .hero_image {
+                width: 320px;
+                height: 320px;
+            }
+        }
+        @media (max-width: 1440px) {
+            /* -------------------------- Team starts here -------------------------- */
+            .about_single_title {
+                font-size: 20px;
+            }
+            /* -------------------------- Team ends here -------------------------- */
+            /* -------------------------- homepage starts here -------------------------- */
+            .about_us_bg:before {
+                width: 250px;
+                height: 340px;
+            }
+            .about_us_bg:after {
+                width: 150px;
+                height: 380px;
+            }
+            .hero_text h1 {
+                font-size: 110px;
+            }
+            .getting_married_text h4 {
+                font-size: 40px;
+            }
+            /* ------------------------- custom starts here ------------------------- */
+            /* -------------------------- homepage ends here -------------------------- */
+            .c-container-padding {
+                padding: 0 100px;
+            }
+            /* ------------------------- custom ends here ------------------------- */
+            /* ------------------------- about page starts here ------------------------- */
+            .about-couple .couple-left h5::before {
+                width: 35px;
+                height: 29px;
+                left: -40px;
+                top: 15px;
+                background-size: contain;
+            }
+            .about-couple .couple-right h5::before {
+                width: 35px;
+                height: 29px;
+                right: -40px;
+                top: 15px;
+                background-size: contain;
+            }
+            /* ------------------------- about page ends here ------------------------- */
+            /* ----------------------- blog single page start here ---------------------- */
+            .blog_sidemain_image:after {
+                height: 230px;
+                width: 210px;
+                top: -1px;
+                left: 40%;
+            }
+            .social_content {
+                width: 54px;
+                height: 54px;
+                transform: scale(0.9);
+            }
+            .cstm_pl {
+                padding-left: 50px;
+            }
+            /* ----------------------- blog single page end ---------------------- */
+            /* ----------------------- RSVP page start ---------------------- */
+            .about_single_content.rsvp_adust p {
+                width: 100%;
+            }
+            /* ----------------------- RSVP page end ---------------------- */
+        }
+        @media (max-width: 1390px) {
+            .moment-above-img {
+                bottom: -170px;
+            }
+            .attendance_sec {
+                padding: 100px 0;
+            }
+            .attendance_sec h2 {
+                font-size: 60px;
+            }
+            /* ------------------------- about page starts ------------------------- */
+            .our-moments-wrapper {
+                margin-bottom: 175px;
+            }
+            /* ------------------------- about page ends ------------------------- */
+            /* ------------------------- Cover Boxes page starts ------------------------- */
+            .image_cover_content p {
+                -webkit-line-clamp: 4;
+            }
+            /* ------------------------- Cover Boxes page ends ------------------------- */
+        }
+        @media (max-width: 1280px) {
+            /* -------------------- custom container css starts -------------------- */
+            .c-container-padding {
+                padding: 0 50px;
+            }
+            /* -------------------- custom container css ends -------------------- */
+            /* ------------------------- Home page starts ------------------------- */
+            .video_sec {
+                height: 430px;
+            }
+            /* ------------------------- Home page ends ------------------------- */
+            /* ------------------------- about page starts ------------------------- */
+            .couple-container {
+                padding: 0 50px;
+            }
+            .about-couple::before {
+                width: 234px;
+                height: 200px;
+            }
+            .plan-group-top {
+                margin-top: 40px;
+            }
+            .c-container-padding {
+                padding: 0 30px;
+            }
+            .about-progress {
+                padding-left: 60px;
+            }
+            .about-progress::before {
+                opacity: 0.5;
+                top: -125px;
+                left: -135px;
+            }
+            .about-getting-married {
+                max-width: 90%;
+            }
+            .progress-value-wrapper .examples {
+                padding: 5px 25px;
+            }
+            .progress-value {
+                padding: 5px 25px;
+            }
+            .mates_inner .rsvp_icon_content {
+                height: 211px;
+                width: 211px;
+                margin: auto;
+            }
+            .couple-center .footer_main img {
+                max-width: 220px;
+            }
+            .first_let,
+            .last_let {
+                font-size: 60px;
+            }
+            .couple_image {
+                width: 240px;
+            }
+            .name_footer {
+                height: 80px;
+            }
+            .couple-right {
+                order: 3;
+                margin-top: 30px;
+            }
+            .couple-center {
+                order: 2;
+            }
+            .couple-left {
+                order: 1;
+                margin-top: 20px;
+            }
+            /* ------------------------- about page ends ------------------------- */
+            /* -------------------------- blog page starts ------------------------- */
+            .blog_single_content {
+                padding: 15px;
+            }
+            /* -------------------------- blog page ends ------------------------- */
+            /* -------------------------- rsvp page starts ------------------------- */
+            .card_right_design img {
+                max-width: 250px;
+            }
+            .rsvp_icon_content {
+                max-width: 250px;
+                height: 250px;
+                margin-top: -45%;
+            }
+            .inner_form {
+                padding: 30px;
+            }
+            .about_single_content.rsvp_adust p {
+                width: 100%;
+            }
+            /* -------------------------- rsvp page ends ------------------------- */
+            /* -------------------------- story  page starts ------------------------- */
+            .story_couple .story_couple_text p {
+                max-width: 70%;
+            }
+            .story_couple .story_couple_text h4 {
+                max-width: 95%;
+            }
+            .m-flex {
+                align-items: center;
+                justify-content: center;
+            }
+            .story_couple .story_couple_image img {
+                position: unset;
+                width: 100%;
+            }
+            .story_couple .story_couple_text {
+                padding: 60px 0px;
+            }
+            .story_couple::before {
+                opacity: .2;
+            }
+            /* -------------------------- story page ends ------------------------- */
+        }
+        @media (max-width: 1200px) {
+            .moment-above-img {
+                bottom: -265px;
+            }
+            /* --------------------------- about starts --------------------------- */
+            .our-moments-wrapper {
+                margin-bottom: 255px;
+            }
+            /* --------------------------- about ends --------------------------- */
+            /* ------------------------- Cover Boxes page starts ------------------------- */
+            .image_cover_content p {
+                -webkit-line-clamp: 4;
+            }
+            .image_cover img {
+                height: 180px;
+                object-fit: cover;
+            }
+            /* ------------------------- Cover Boxes page ends ------------------------- */
+        }
+        @media (max-width: 1024px) {
+            /* --------------------------- megamenu starts --------------------------- */
+            .dropdown-menu.megamenu::before {
+                height: 163px;
+                width: 207px;
+            }
+            /* --------------------------- megamenu ends --------------------------- */
+            /* -------------------------- homepage starts -------------------------- */
+            .rsvp_sec:before,
+            .rsvp_sec:after {
+                width: 20%;
+                height: 200px;
+            }
+            .video_sec {
+                height: 350px;
+            }
+            .video-play-button {
+                width: 26px;
+                height: 32px;
+                padding: 8px 17px 14px 21px;
+            }
+            .hero_text h1 {
+                font-size: 100px;
+            }
+            .wed_details_content_left_text p {
+                margin-bottom: 18px;
+            }
+            .btn_primary {
+                font-size: 15px;
+            }
+            .hero_image {
+                width: 300px;
+                height: 300px;
+            }
+            .hero_image:before {
+                width: 150px;
+                height: 150px;
+                top: -25px;
+                left: -70px;
+            }
+            .hero_image:after {
+                width: 150px;
+                height: 150px;
+                bottom: -25px;
+                right: -85px;
+            }
+            .getting_married_text h4 {
+                margin-top: 35px;
+            }
+            .getting_married_text h4:before,
+            .getting_married_text h4:after {
+                width: 70px;
+                height: 35px;
+            }
+            .wed_details_content.first:before {
+                width: 450px;
+                height: 450px;
+                top: -110px;
+                left: -130px;
+            }
+            .wed_details_content.last:before {
+                width: 450px;
+                height: 450px;
+                bottom: -110px;
+                right: -110px;
+            }
+            /* -------------------------- homepage ends -------------------------- */
+            /* --------------------------- about starts --------------------------- */
+            .m-ac-couple {
+                width: 80% !important;
+                margin: 0 auto;
+                display: flex;
+            }
+            .about-couple .couple-left p,
+            .about-couple .couple-right p {
+                max-width: none;
+            }
+            .couple-center {
+                order: 1;
+            }
+            .couple-left {
+                order: 2;
+            }
+            .about-couple .m-flex {
+                flex-direction: column;
+            }
+            .couple_image {
+                width: 270px;
+            }
+            .c-about-progress-top::before {
+                width: 250px;
+                height: 329px;
+                bottom: -60px;
+            }
+            .mate_single.rsvp_icon_content {
+                max-width: none;
+            }
+            /* --------------------------- about ends --------------------------- */
+            /* --------------------------- gallery page starts --------------------------- */
+            .newsletter_action button {
+                min-width: inherit;
+            }
+            /* --------------------------- gallery page ends --------------------------- */
+            /* ---------------------- Blog Masonry page start --------------------- */
+            .blog_masonry {
+                column-count: 3;
+            }
+            .grid {
+                width: 33.33%;
+            }
+            /* ---------------------- Blog Masonry page endt --------------------- */
+            /* ---------------------- blog single page starts --------------------- */
+            .cstm_pl {
+                padding-left: 15px;
+            }
+            /* ---------------------- blog single page ends --------------------- */
+            /* ----------------------- blog grid page starts ----------------------- */
+            .blog_card_container {
+                grid-template-columns: 1fr 1fr;
+            }
+            /* ----------------------- blog grid page ends ----------------------- */
+            /* -------------------------- rsvp page starts ------------------------- */
+            .rsvp_icon_content {
+                max-width: 210px;
+                height: 210px;
+                margin-top: -50%;
+            }
+            .about_single_content.rsvp_adust img {
+                height: 65px;
+                width: auto;
+            }
+            /* -------------------------- rsvp page ends ------------------------- */
+            .attendance_sec:before,
+            .attendance_sec:after {
+                opacity: 0.5;
+            }
+            .attendance_sec {
+                padding: 50px 0;
+            }
+            .celebrate_sec .main_title {
+                margin-bottom: 100px;
+            }
+        }
+        @media (max-width: 991px) {
+            /* ----------------------- Dropcaps start ---------------------- */
+            .dropdcaps_wrapper p {
+                margin-bottom: 30px;
+            }
+            /* ----------------------- Dropcaps end ---------------------- */
+            /* ----------------------- Column start ---------------------- */
+            .columns h4 {
+                font-size: 30px;
+            }
+            /* ----------------------- Column end ---------------------- */
+            /* ----------------------- Cover Boxes start ---------------------- */
+            .image_cover img {
+                height: auto;
+            }
+            .flip-card-back {
+                padding: 8px;
+            }
+            .flip-card-back p {
+                font-size: 14px;
+            }
+            .cover_content_main ul li {
+                position: initial;
+                display: block;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .cover_content_main ul {
+                width: 100%;
+                height: initial!important;
+            }
+            .cover_content_main ul li .image_cover_content {
+                opacity: 1;
+            }
+            .cover_content_main ul li .cover_content {
+                display: flex;
+                align-items: center;
+            }
+            /* ----------------------- Cover Boxes end ---------------------- */
+            /* ------------------------- footer css starts ------------------------- */
+            .first_let,
+            .last_let {
+                font-size: 70px;
+            }
+            /* ------------------------- footer css ends ------------------------- */
+            /* --------------------------------- titles starts --------------------------------- */
+            .main_title span {
+                font-size: 80px;
+            }
+            .main_title h5:before {
+                width: 70px;
+            }
+            .main_title h5:after {
+                width: 70px;
+            }
+            /* --------------------------------- titles ends --------------------------------- */
+            section,
+            .section {
+                overflow: hidden;
+            }
+            /* --------------------------- navbar starts --------------------------- */
+            .navbar-toggler:focus {
+                box-shadow: none;
+            }
+            .mobile-menu-top {
+                padding: 10px;
+            }
+            header .nav-item .dropdown-item {
+                color: var(--color-white);
+                opacity: 0.8;
+            }
+            header .dropdown-item.active,
+            header .dropdown-item:active {
+                background-color: transparent;
+            }
+            .dropdown-menu.megamenu .col-12 {
+                margin: 0 !important;
+            }
+            .dropdown-menu li:last-child {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            }
+            .dropdown-menu.megamenu h6.text_orange {
+                margin-bottom: 20px !important;
+            }
+            .navbar.fixed-top .navbar-collapse,
+            .navbar.sticky-top .navbar-collapse {
+                overflow-y: auto;
+                max-height: 90vh;
+                margin-top: 10px;
+            }
+            .mobile-menu-top .navbar-collapse {
+                border-top: 1px solid var(--color-orange);
+                border-radius: 0 !important;
+            }
+            header .nav-item .dropdown-item {
+                padding: 5px 0;
+                font-size: 15px;
+                font-weight: 300;
+            }
+            .dropdown-menu.megamenu,
+            .navbar-nav .dropdown-menu {
+                overflow-y: auto;
+                max-height: 250px;
+                background: transparent;
+                padding-right: 0;
+                padding-top: 0;
+                padding-left: 12px;
+                box-shadow: none;
+                border-left: 3px solid var(--color-orange);
+                border-top: none;
+                margin-left: 30px;
+                margin-bottom: 12px;
+            }
+            .col-megamenu .title {
+                color: var(--color-white);
+            }
+            .col-megamenu ul li a {
+                color: var(--color-white);
+                opacity: 0.8;
+                font-size: 15px;
+                padding: 0;
+            }
+            .col-megamenu ul li {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                line-height: 35px;
+            }
+            .dropdown-menu.megamenu::before {
+                display: none;
+            }
+            .navbar-dark .navbar-nav .nav-link:focus,
+            .navbar-dark .navbar-nav .nav-link:hover {
+                color: var(--color-orange);
+                font-weight: 600;
+            }
+            header nav.navbar.navbar.fixed-top {
+                background-color: var(--color-green);
+            }
+            .dropdown-menu li {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            }
+            /* nav menu ul scroll starts */
+            .dropdown-menu.megamenu::-webkit-scrollbar {
+                width: 3px;
+            }
+            .dropdown-menu.megamenu::-webkit-scrollbar-track {
+                background: rgba(255, 255, 255, 0.8);
+            }
+            .dropdown-menu.megamenu::-webkit-scrollbar-thumb {
+                background: var(--color-orange);
+            }
+            .dropdown-menu.megamenu::-webkit-scrollbar-thumb:hover {
+                background: #555;
+            }
+            /* nav menu ul scroll ends */
+            .navbar-nav .nav-item .nav-link {
+                padding: 7px 8px;
+            }
+            .navbar-toggler-img {
+                height: 20px;
+            }
+            .dropdown-menu.megamenu h6 {
+                font-size: 18px;
+            }
+            .col-megamenu ul li {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                line-height: initial;
+                padding: 5px 0;
+            }
+            .navbar-nav .nav-item .nav-link {
+                padding: 7px 8px;
+            }
+            /* --------------------------- navbar ends --------------------------- */
+            /* ------------------------- home page starts ------------------------- */
+            .video_sec {
+                height: 400px;
+            }
+            .wed_details_content.first:before {
+                width: 350px;
+                height: 350px;
+                top: -100px;
+                left: -180px;
+            }
+            .wed_details_content.last:before {
+                right: -130px;
+                bottom: -110px;
+                width: 350px;
+                height: 350px;
+            }
+            .wed_details_content img {
+                height: 100%;
+                object-fit: cover;
+            }
+            .getting_married_text h4 {
+                font-size: 30px;
+            }
+            /* ------------------------- home page ends ------------------------- */
+            /* ------------------------- about page starts ------------------------- */
+            .plan-group-top {
+                margin-top: 0;
+                justify-content: center;
+            }
+            .plan-card-col {
+                margin-top: 36px;
+            }
+            .page-title::before {
+                bottom: -80px;
+                right: -140px;
+            }
+            .about-progress-inner {
+                max-height: unset;
+                height: auto;
+                width: 100%;
+                flex-direction: column;
+            }
+            .progress-left {
+                width: 100%;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            .progress-value-wrapper .examples {
+                padding: 5px 0;
+            }
+            .c-about-progress-top .progress-right {
+                width: 100%;
+            }
+            .progress-main-wrapper {
+                padding: 50px 20px;
+            }
+            .mb0 {
+                margin-bottom: 0;
+            }
+            .c-about-progress-top {
+                overflow: visible;
+            }
+            .c-about-progress-top::before {
+                bottom: -50px;
+                right: 0;
+                opacity: 0.5;
+            }
+            .about-getting-married {
+                max-width: 100%;
+            }
+            .about-progress {
+                padding-right: 60px;
+                height: auto;
+            }
+            .c-about-progress-top {
+                padding-top: 0;
+            }
+            .page-title {
+                min-height: 380px;
+            }
+            .couple-container {
+                max-width: calc(100% - 50px);
+            }
+            .cd-992-none {
+                display: none;
+            }
+            .cd-992-block {
+                display: block;
+            }
+            .c-about-progress-top {
+                padding-bottom: 0;
+            }
+            .progress-left {
+                order: 2;
+            }
+            .moments-card-left {
+                max-width: 100%;
+            }
+            .our-moments-wrapper::before {
+                left: -50%;
+                top: -5%;
+            }
+            .moments-main {
+                padding-top: 50px;
+            }
+            .our-moments-wrapper::after {
+                right: -57%;
+                bottom: -51%;
+            }
+            /* ------------------------- about page ends ------------------------- */
+            /* ------------------------- story page starts ------------------------- */
+            .m-flex {
+                flex-direction: column;
+            }
+            .story_couple .story_couple_text p {
+                max-width: 100%;
+            }
+            .story_couple .story_couple_text h4 {
+                max-width: 100%;
+            }
+            .story_name {
+                padding-top: 0;
+            }
+            /* timeline */
+            .story_timeline .story_timeline_wrapper .story_timeline_text {
+                width: 80%;
+                order: 2;
+                text-align: center !important;
+                padding: 90px 50px 45px;
+            }
+            .story_timeline_wrapper {
+                flex-direction: column;
+            }
+            .story_timeline .story_timeline_wrapper .story_timeline_image {
+                width: 50%;
+                height: auto;
+                transform: unset;
+                right: unset;
+                bottom: -50px;
+            }
+            .story_timeline .story_timeline_wrapper .story_timeline_image .timeline_image {
+                height: auto;
+            }
+            /* temp font size */
+            .story_timeline .story_timeline_wrapper .story_timeline_image .timeline_image H4 {
+                font-size: 30px;
+            }
+            /* temp font size */
+            .story_timeline_text.text_left::before {
+                right: -63px;
+                top: -178px;
+                transform: scaleX(1);
+            }
+            .story_timeline .story_timeline_wrapper .story_timeline_image.image_left {
+                width: 50%;
+                height: auto;
+                transform: unset;
+                left: unset;
+                bottom: -50px;
+            }
+            .story_timeline_text.text_right::before {
+                left: -63px;
+                top: -178px;
+                transform: scaleX(-1);
+            }
+            .story_timeline .story_timeline_wrapper .story_timeline_text.text_right {
+                padding: 90px 50px 45px;
+            }
+            .story_timeline_wrapper {
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+            /* timeline */
+            /* newsletter */
+            .newsletter p {
+                margin-bottom: 20px;
+            }
+            /* newsletter */
+            .card_rsvp_container {
+                transform: scale(0.9) translate(0, 50px) !important;
+            }
+            .rsvp_icon_content {
+                max-width: 150px;
+                height: 150px;
+                margin-top: -52%;
+            }
+            /* ------------------------- story page ends ------------------------- */
+            /* --------------------- event details page starts --------------------- */
+            .event_services_adjust .progress-main-wrapper {
+                height: 450px;
+                display: block;
+                width: calc(100% - 60px);
+            }
+            .about-progress {
+                height: auto;
+                width: 100%;
+                display: block;
+            }
+            .about-getting-married p {
+                max-width: 100%;
+            }
+            /* --------------------- event details page ends --------------------- */
+            /* --------------------------- navbar starts --------------------------- */
+            .navbar-dark .navbar-toggler {
+                border: 0;
+            }
+            div#main_nav {
+                padding: 10px;
+                border-radius: 4px;
+                margin-top: 10px;
+            }
+            /* --------------------------- navbar ends --------------------------- */
+            /* -------------------------- homepage starts -------------------------- */
+            section,
+            .section {
+                overflow: hidden;
+            }
+            .about_us_bg:before {
+                width: 130px;
+                height: 240px;
+            }
+            .about_us_bg:after {
+                width: 110px;
+                height: 310px;
+            }
+            .save_date_section:before {
+                width: 90px;
+            }
+            .save_date_section:after {
+                width: 110px;
+                height: 140px;
+            }
+            .hero_text h1 {
+                font-size: 80px;
+            }
+            h3 {
+                font-size: 50px;
+            }
+            .hero_main_image {
+                max-width: 60%;
+            }
+            .hero_area .row {
+                justify-content: center;
+            }
+            .moments-card-left h4 {
+                font-size: 50px;
+            }
+            .moment-above-img {
+                bottom: -335px;
+                max-height: 456px;
+                max-width: 627px;
+            }
+            .mates_inner {
+                grid-gap: 20px;
+            }
+            .mates_inner {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .mate_single.rsvp_icon_content:after {
+                transform: translate(-50%, -50%) rotate(90deg) scale(1.0);
+            }
+            .about_us_bg:after {
+                bottom: 40px;
+            }
+            .inner_title h4 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            .save_date_section h3 {
+                font-size: 40px;
+                line-height: 70px;
+            }
+            .address_content {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            /* -------------------------- homepage ends -------------------------- */
+            /* -------------------------- aboutpage starts -------------------------- */
+            .progress-value {
+                padding: 0;
+            }
+            .story_timeline .story_timeline_wrapper .story_timeline_image .timeline_image img {
+                height: auto;
+            }
+            /* -------------------------- aboutpage ends -------------------------- */
+        }
+        @media (max-width: 768px) {
+            .curtails_effect::before,
+            .curtails_effect::after {
+                width: 55%;
+            }
+            .attendance_sec h2 {
+                font-size: 40px;
+            }
+            /* -------------------------- homepage starts -------------------------- */
+            .save_date_section:after {
+                right: -20px;
+            }
+            .save_date_section:before {
+                top: -20px;
+            }
+            .about_us_bg .main_title {
+                margin-bottom: 10px;
+            }
+            .hero_main_image {
+                display: flex;
+                align-items: center;
+                width: 60%;
+                margin: auto;
+            }
+            .animate_flowers_content_left img,
+            .animate_flowers_content_right img {
+                width: 180px;
+            }
+            .getting_married_text h2:after,
+            .getting_married_text h2:before {
+                width: 60px;
+                height: 30px;
+                margin-left: 10px;
+            }
+            .address_content {
+                font-weight: 400;
+            }
+            .wed_details_content_left_text {
+                align-items: flex-start;
+                text-align: left;
+            }
+            .wed_details_content.last:before {
+                right: -140px;
+                bottom: -60px;
+                width: 350px;
+                height: 350px;
+            }
+            .rsvp_sec:before,
+            .rsvp_sec:after {
+                width: 20%;
+                height: 100px;
+            }
+            #countdown {
+                position: relative;
+                z-index: 2;
+            }
+            .save_date_section:after {
+                width: 90px;
+                height: 90px;
+                opacity: 0.7;
+            }
+            .main_title span {
+                font-size: 50px;
+            }
+            .main_title h5 {
+                font-size: 25px;
+                bottom: -15px;
+            }
+            .main_title h5:after,
+            .main_title h5:before {
+                width: 50px;
+                height: 25px;
+            }
+            .main_title h5:before {
+                margin-right: 10px;
+            }
+            .main_title h5:after {
+                margin-left: 10px;
+            }
+            .wed_details_content.first {
+                margin-top: 40px;
+            }
+            .about_us_bg:after {
+                bottom: 0;
+            }
+            /* -------------------------- homepage ends -------------------------- */
+            /* ------------------------- about page starts ------------------------- */
+            .main_title h3 {
+                margin-top: -40px;
+            }
+            .couple-container {
+                max-width: 100%;
+            }
+            .about-couple::before {
+                width: 154px;
+                height: 130px;
+            }
+            section,
+            .section {
+                padding-top: 40px;
+                padding-bottom: 60px;
+            }
+            .mates_inner {
+                grid-template-columns: 1fr 1fr;
+            }
+            .couple-right {
+                margin-top: 25px;
+            }
+            .more_text h5 {
+                /* bottom: -35px; */
+            }
+            .page-title::before {
+                bottom: -100px;
+                right: -140px;
+                transform: scale(0.6);
+            }
+            .m-couple-flex {
+                flex-direction: column;
+                margin-top: 75px;
+            }
+            .couple_image {
+                width: 250px;
+            }
+            /* ------------------------- about page ends ------------------------- */
+            /* ---------------------- Blog Masonry page start --------------------- */
+            .grid {
+                width: 50%;
+            }
+            .blog_masonry {
+                column-count: 2;
+            }
+            /* ---------------------- Blog Masonry page end --------------------- */
+            /* ---------------------- story masonary page starts --------------------- */
+            .story_timeline .story_timeline_wrapper .story_timeline_text {
+                width: 100%;
+                padding: 90px 50px 45px;
+            }
+            .story_timeline .story_timeline_wrapper .story_timeline_image {
+                width: 70%;
+            }
+            .story_timeline_text.text_left::before {
+                right: -143px;
+            }
+            .story_timeline .story_timeline_wrapper .story_timeline_image.image_left {
+                width: 70%;
+            }
+            .story_timeline_text.text_right::before {
+                left: -143px;
+            }
+            .our_love_story {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            section,
+            .section {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            .story_name {
+                padding-bottom: 50px;
+            }
+            /* ---------------------- story masonary page end --------------------- */
+            /* ---------------------- rsvp page starts --------------------- */
+            .rsvp_icon_content {
+                max-width: 150px;
+                height: 150px;
+                margin-top: -15%;
+            }
+            .celebration_space_adjust {
+                margin-top: 0;
+            }
+            .card_rsvp_container {
+                transform: scale(0.9) translate(0, 30px);
+                margin-bottom: 30px;
+            }
+            body .celebrate_sec {
+                padding: inherit;
+                padding-bottom: inherit;
+                padding-top: 40px;
+            }
+            .celebrate_it_main {
+                margin-bottom: 40px;
+            }
+            body .rsvp_full_container.about_single_content {
+                margin-top: 90px;
+                height: inherit;
+            }
+            /* ---------------------- rsvp page ends --------------------- */
+            /* -------------------------- blogpage starts -------------------------- */
+            .blog_single_content h2 {
+                color: var(--color-green);
+                text-align: left;
+            }
+            /* -------------------------- blogpage ends -------------------------- */
+            /* --------------------- event details page starts --------------------- */
+            .reception_main_image {
+                margin-top: 50px;
+            }
+            .blog_single_actions {
+                display: block;
+            }
+            .blog_action_content img {
+                width: 20px;
+            }
+            .blog_action_content {
+                margin-bottom: 10px;
+            }
+            .event_slide_sec #gallery_slides {
+                margin-top: 40px;
+            }
+            .event_slide_sec {
+                padding-top: 40px !important;
+            }
+            /* --------------------- event details page ends --------------------- */
+        }
+        @media (max-width: 700px) {
+            .couple_image {
+                width: 200px;
+            }
+        }
+        @media (max-width: 767px) {
+            .full-blockquate:before {
+                top: -10px;
+                background-size: 30px;
+            }
+            .orange-accordions {
+                margin-top: 30px;
+            }
+            /* -------------------------- Start Home Page -------------------------- */
+            .order22 {
+                order: 2;
+            }
+            .order11 {
+                order: 1;
+            }
+            .getting_married_text h4:before,
+            .getting_married_text h4:after {
+                width: 50px;
+                height: 25px;
+            }
+            .getting_married_text h4 {
+                font-size: 25px;
+            }
+            .save_date_section h3 {
+                font-size: 30px;
+                line-height: 50px;
+            }
+            /* -------------------------- Start Home Page -------------------------- */
+            /* ------------------------------ about us page ----------------------------- */
+            .page-title {
+                min-height: 340px;
+            }
+            /* ------------------------------ about us page ----------------------------- */
+        }
+        @media (max-width: 576px) {
+            /* --------------------------------- Blockquote --------------------------------- */
+            .blog_element_wrapper .blog_element_wrapper {
+                padding: 30px 0 30px 0;
+            }
+            .blog_element_wrapper .blog_card_container {
+                margin-top: 0px;
+            }
+            /* --------------------------------- Blockquote --------------------------------- */
+            /* --------------------------------- Accordion --------------------------------- */
+            .accordion-button {
+                font-size: 15px !important;
+                padding: 15px !important;
+            }
+            .accordion-body {
+                padding: 15px !important;
+            }
+            /* --------------------------------- Accordion --------------------------------- */
+            /* ------------------------- footer css starts ------------------------- */
+            .first_let,
+            .last_let {
+                font-size: 38px;
+            }
+            .name_footer {
+                height: 50px;
+            }
+            .and {
+                color: var(--color-orange);
+                display: flex;
+                align-self: center;
+                font-family: 'Cinzel Decorative', cursive;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            .footer_main img {
+                width: 150px;
+            }
+            .name_footer {
+                height: 70px;
+            }
+            .footer_main:after {
+                width: 150px;
+                height: 190px;
+                left: 70%;
+            }
+            .footer_main:before {
+                width: 150px;
+                height: 190px;
+                right: 70%;
+            }
+            /* --------------------------- footer ends --------------------------- */
+            /* ------------------------- home page starts ------------------------- */
+            .save_date_section:before,
+            .save_date_section:after {
+                opacity: 0.4;
+            }
+            .mates_inner {
+                grid-template-columns: 2fr 2fr;
+            }
+            .hero_main_image {
+                width: 80%;
+            }
+            .getting_married_text h2:after,
+            .getting_married_text h2:before {
+                width: 40px;
+                height: 25px;
+                margin-left: 10px;
+            }
+            .about_us_bg:before {
+                width: 80px;
+                height: 140px;
+            }
+            .main_title h3:before,
+            .main_title h3:after {
+                width: 60px;
+                height: 25px;
+            }
+            .save_date_section h3 {
+                font-size: 21px;
+                line-height: 32px;
+            }
+            .about_us_bg:after {
+                width: 70px;
+                height: 180px;
+            }
+            .wed_details_content {
+                padding: 0 10px;
+            }
+            .wed_details_content.last:before {
+                right: -120px;
+                width: 250px;
+                height: 160px;
+                bottom: -60px;
+            }
+            .video_sec .modal-content {
+                height: 50vh;
+            }
+            .form_main {
+                padding: 25px 10px;
+            }
+            .rsvp_sec:before {
+                top: 30px;
+                transform: scale(1.5) rotate(90deg);
+            }
+            .rsvp_sec:after {
+                top: calc(100% - 100px);
+                transform: scale(1.5) rotate(89deg);
+            }
+            .getting_married_text h4 {
+                font-size: 20px;
+            }
+            .address_content {
+                font-size: 15px;
+            }
+            .attendance_sec h2 {
+                font-size: 40px;
+            }
+            .hero_main_image {
+                max-width: 90%;
+            }
+            .order22 {
+                order: 2;
+            }
+            .order11 {
+                order: 1;
+            }
+            .video_sec {
+                margin-top: 0 !important;
+            }
+            .attendance_sec {
+                padding: 50px 0;
+            }
+            .video_sec {
+                height: 250px;
+            }
+            .main_title span {
+                font-size: 45px;
+            }
+            .main_title h5 {
+                font-size: 22px;
+                bottom: -14px;
+            }
+            /* ------------------------- home page ends ------------------------- */
+            /* ------------------------- about page starts ------------------------- */
+            .our-moments-wrapper {
+                margin-top: 50px;
+                margin-bottom: 0;
+            }
+            .moment-above-img {
+                bottom: 0;
+                max-height: inherit;
+                max-width: 100%;
+                position: relative;
+                height: auto;
+            }
+            .moments-main {
+                padding-top: 50px;
+            }
+            .moments-main {
+                padding-top: 30px;
+            }
+            .couple_image {
+                width: 150px;
+            }
+            .couple-center .footer_main {
+                display: flex;
+                justify-content: center;
+                margin-top: 0;
+                position: absolute;
+                z-index: 4;
+                bottom: -5px;
+                left: 0;
+                right: 0;
+            }
+            .couple-container {
+                max-width: calc(100% - 100px);
+            }
+            .couple-left,
+            .couple-right {
+                width: 90%;
+            }
+            .couple-container {
+                padding: 0 10px;
+            }
+            .couple-right,
+            .couple-left {
+                display: flex;
+                flex-direction: column;
+            }
+            .couple-left {
+                margin-bottom: 20px;
+            }
+            .about-couple .couple-left h5,
+            .about-couple .couple-right h5 {
+                margin-bottom: 0;
+            }
+            .about-couple .couple-left h4,
+            .about-couple .couple-right h4 {
+                display: inline-block;
+            }
+            .about-couple .couple-left h4::before {
+                background-image: url(../images/about/ac-small-leaf-right.png);
+                right: 185px;
+                left: unset;
+            }
+            .about-couple .couple-right h4::before {
+                background-image: url(../images/object/ac-small-leaf-left.png);
+                left: 175px;
+                right: unset;
+            }
+            .our-moments-wrapper::before {
+                left: -50%;
+                top: -20%;
+                transform: scale(0.5);
+            }
+            .our-moments-wrapper::after {
+                right: -57%;
+                bottom: -25%;
+                transform: scale(0.5);
+            }
+            .mates_inner .rsvp_icon_content {
+                height: 180px;
+                width: 180px;
+            }
+            .about-progress {
+                padding-right: 40px;
+                padding-left: 40px;
+            }
+            .progress-value-wrapper .examples {
+                padding: 5px 0;
+            }
+            /* ------------------------- about page ends ------------------------- */
+            /* ---------------------- Blog Masonry page start --------------------- */
+            .blog_masonry {
+                column-count: 1;
+            }
+            .grid {
+                width: 100%;
+            }
+            /* ---------------------- Blog Masonry page end --------------------- */
+            /* ----------------------- blog grid page starts ----------------------- */
+            .blog_card_container {
+                grid-template-columns: 1fr;
+            }
+            /* ----------------------- blog grid page ends ----------------------- */
+            /* ----------------------- blog single page start ---------------------- */
+            .blogs_container.only_blog_text_adjust:after {
+                height: 30px;
+                width: 50px;
+                top: 22px;
+                right: 12px;
+                background-size: contain;
+            }
+            .blog_single_actions {
+                flex-wrap: wrap;
+            }
+            .blog_action_content {
+                margin-right: 15px;
+                margin-bottom: 15px;
+            }
+            .video-play-button {
+                width: 17px;
+                height: 24px;
+                padding: 12px 14px 14px 17px;
+            }
+            .video-play-button:before {
+                width: 70px;
+                height: 70px;
+            }
+            .video-play-button:after {
+                width: 70px;
+                height: 70px;
+            }
+            .blog_single_actions {
+                margin: 15px 0;
+            }
+            .blogs_container:not(:last-child) {
+                margin: 25px 0;
+            }
+            .blogs_container.only_blog_text_adjust {
+                padding: 20px;
+            }
+            .only_blog_text_adjust .blog_single_title {
+                margin-top: 0;
+            }
+            /* ----------------------- blog single page end ---------------------- */
+            /* ----------------------- story page starts ---------------------- */
+            .story_timeline .story_timeline_wrapper .story_timeline_text {
+                width: 95%;
+                padding: 90px 30px 45px;
+            }
+            .story_timeline .story_timeline_wrapper .story_timeline_image .timeline_image H4 {
+                font-size: 22px;
+            }
+            .story_name {
+                padding-bottom: 50px;
+                padding-top: 0;
+            }
+            .story_couple .story_couple_text {
+                padding: 60px 10px;
+            }
+            .story .story_name_text h2 {
+                font-size: 50px;
+            }
+            .story .story_name_text h2 span {
+                font-size: 40px;
+            }
+            .story .story_name_text h5 {
+                font-size: 20px;
+            }
+            /* ----------------------- story page end ---------------------- */
+            /* ----------------------- event details page starts ---------------------- */
+            .gallery_desc {
+                margin: 10px;
+            }
+            .event_services_adjust .progress-main-wrapper {
+                height: 190px;
+            }
+            .about-progress {
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-top: 30px;
+            }
+            .blog_action_content {
+                align-items: flex-start;
+            }
+            section,
+            .section {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            /* ----------------------- event details page ends ---------------------- */
+            .hero_image {
+                width: 250px;
+                height: 250px;
+            }
+            /* --------------------- page title starts --------------------- */
+            .page-title::before {
+                bottom: -144px;
+                right: -185px;
+            }
+            /* --------------------- page title ends --------------------- */
+            /* --------------------- custom padding starts --------------------- */
+            .c-container-padding {
+                padding: 0 15px;
+            }
+            /* --------------------- custom padding starts --------------------- */
+            /* ---------------------- Blog Masonry page start --------------------- */
+            .text_container_masonary {
+                padding: 20px;
+            }
+            /* ---------------------- Blog Masonry page endt --------------------- */
+            /* -------------------------- blog page starts ------------------------- */
+            .blog_single_content {
+                padding: 15px;
+                margin: 0;
+                width: 100%;
+            }
+            .blog_date {
+                right: 5px;
+            }
+            /* -------------------------- blog page ends ------------------------- */
+            /* -------------------------- RSVP page starts ------------------------- */
+            .celebrate_sec .main_title {
+                margin-bottom: 20px;
+            }
+            body .celebrate_sec {
+                padding-top: 20px;
+            }
+            .celebrate_it_main {
+                margin-bottom: 20px;
+            }
+            .card_rsvp_container {
+                margin-bottom: 60px;
+            }
+            /* -------------------------- RSVP page ends ------------------------- */
+            /* -------------------------- Cover Boxes starts ------------------------- */
+            .cover_content_main ul li .cover_content {
+                display: block;
+            }
+            .cover_content_main ul li .cover_content .image_cover {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .cover_content_main ul li .image_cover_content {
+                padding: 0;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .cover_content_main ul li .cover_content .image_cover_content {
+                width: 100%;
+                padding: 0;
+            }
+            /* -------------------------- Cover Boxes ends ------------------------- */
+        }
+        @media (max-width: 480px) {
+            .hero_image {
+                width: 150px;
+                height: 150px;
+            }
+            .hero_image:before {
+                width: 100px;
+                height: 100px;
+                top: 0;
+                left: -40px;
+            }
+            .getting_married_text h4 {
+                margin-top: 10px;
+            }
+            .home_only .hero_area {
+                top: 50%;
+            }
+            .hero_image:after {
+                width: 100px;
+                height: 100px;
+                bottom: 0;
+                right: -50px;
+            }
+            .couple-center .footer_main img {
+                max-width: 50%;
+            }
+            .m-ac-couple {
+                width: 100% !important;
+            }
+            .about-couple::before {
+                width: 100px;
+                height: 90px;
+            }
+        }
+        @media (max-width: 414px) {
+            /* ------------------------ Team starts ----------------------- */
+            .about_single_title {
+                font-size: 18px;
+            }
+            /* ------------------------ Team starts ----------------------- */
+            /* ------------------------ Blockquote starts ----------------------- */
+            .full-blockquate:before {
+                top: -20px;
+                background-size: 28px;
+                width: 30px;
+                right: 0;
+            }
+            /* ------------------------ Blockquote starts ----------------------- */
+            .story .story_name_text h2 span {
+                display: block;
+            }
+            .attendance_sec h2 {
+                font-size: 24px;
+            }
+            .attendance_sec h6 {
+                font-size: 13px;
+            }
+            /* ------------------------ about us page starts ----------------------- */
+            .mates_inner {
+                grid-template-columns: 1fr;
+            }
+            .about-couple .couple-left h5::before {
+                height: 23px;
+                left: -40px;
+                top: 5px;
+                background-size: contain;
+            }
+            .first_let,
+            .last_let {
+                font-size: 35px;
+            }
+            .name_footer {
+                height: 50px;
+            }
+            .and {
+                font-size: 14px;
+            }
+            .about-couple .couple-right h5::before {
+                height: 23px;
+                right: -38px;
+                top: 5px;
+                background-size: contain;
+            }
+            .mates_inner .rsvp_icon_content {
+                height: 280px;
+                width: 280px;
+            }
+            .mate_single.rsvp_icon_content:after {
+                left: calc(50% + -8px);
+            }
+            .mate_single.rsvp_icon_content:hover:after {
+                top: calc(50% + -8px);
+            }
+            /* ------------------------ about us page ends ----------------------- */
+            /* ------------------------ rsvp page starts ----------------------- */
+            .rsvp_adust .rsvp_icon_content {
+                max-width: 200px;
+                height: 200px;
+                margin-top: -36%;
+            }
+            .about_single_content.rsvp_adust.first {
+                margin-top: 150px;
+            }
+            .inner_form {
+                padding: 15px;
+            }
+            .form_radio {
+                width: 100%;
+                flex-direction: column;
+                align-items: flex-start !important;
+            }
+            .inner_input:not(:last-child) {
+                margin: 10px 0;
+            }
+            .card_right_design {
+                left: 25%;
+            }
+            .about_single_content.rsvp_adust img {
+                height: 70px;
+            }
+            /* ------------------------ rsvp page ends ----------------------- */
+            /* ------------------------ gallery tabs page starts ----------------------- */
+            .gallery_tab_inside .nav-tabs {
+                display: grid;
+                grid-template-columns: 1fr;
+                background: var(color-white);
+                width: 100%;
+            }
+            .gallery_tab_inside .nav-tabs li {
+                flex: 1;
+                margin: 35px 0;
+                padding: 15px;
+            }
+            .gallery_tab_inside .nav-tabs li {
+                background: var(--color-lightgrey);
+            }
+            /* ------------------------ gallery tabs page ends ----------------------- */
+        }
+        @media (max-width: 390px) {
+            /* ------------------------- footer css starts ------------------------- */
+            .first_let,
+            .last_let {
+                font-size: 42px;
+            }
+            /* ------------------------- footer css ends ------------------------- */
+            /* ------------------------- home page starts ------------------------- */
+            .main_title h3:before,
+            .main_title h3:after {
+                width: 35px;
+                height: 25px;
+            }
+            .animate_flowers_content_left img,
+            .animate_flowers_content_right img {
+                width: 120px;
+            }
+            .hero_image {
+                width: 150px;
+                height: 150px;
+            }
+            .main_title h5 {
+                font-size: 19px;
+                bottom: -8px;
+            }
+            .main_title h5:before,
+            .main_title h5:after {
+                width: 27px;
+            }
+            .main_title span {
+                font-size: 38px;
+            }
+            /* ------------------------- home page ends ------------------------- */
+            /* ------------------------- footer css starts ------------------------- */
+            .footer_main img {
+                width: 150px;
+            }
+            .footer_main:after,
+            .footer_main:before {
+                width: 110px;
+            }
+            /* ------------------------- footer css ends ------------------------- */
+            /* ------------------------- about page starts ------------------------- */
+            .about-couple .couple-left h4::before {
+                background-image: url(../images/about/ac-small-leaf-right.png);
+                right: 140px;
+                left: unset;
+            }
+            .couple-container {
+                max-width: calc(100% - 50px);
+            }
+            .couple-center .footer_main img {
+                width: 40%;
+            }
+            .name_footer {
+                height: 50px;
+            }
+            .couple_image {
+                width: 120px;
+            }
+            .about-couple .couple-left h5::before {
+                height: 15px;
+                left: -35px;
+                top: 10px;
+            }
+            .about-couple .couple-right h5::before {
+                height: 15px;
+                right: -38px;
+                top: 10px;
+            }
+            .first_let,
+            .last_let {
+                font-size: 32px;
+            }
+            .and {
+                font-size: 13px;
+            }
+            .couple-left {
+                margin-top: 50px;
+            }
+            .about-couple .couple-right h4::before {
+                background-image: url(../images/object/ac-small-leaf-left.png);
+                left: 130px;
+                right: unset;
+            }
+            .moments-card-left h4 {
+                font-size: 40px;
+            }
+            .moments-card-left p {
+                font-size: 16px;
+            }
+            .about_single_sep_horizontal {
+                margin-bottom: 18px;
+                margin-top: 18px;
+            }
+            .our-moments-wrapper::after {
+                right: -100%;
+                bottom: -36%;
+                transform: scale(0.5);
+            }
+            .bridesmaids-bottom {
+                bottom: -38px !important;
+            }
+            /* ------------------------- about page ends ------------------------- */
+            /* ---------------------- blog single page starts ---------------------- */
+            .pagination {
+                flex-wrap: wrap;
+            }
+            .image_with_text .auth_date {
+                font-size: 13px;
+            }
+            /* ---------------------- blog single page ends ---------------------- */
+            /* ---------------------- story page starts ---------------------- */
+            .story_timeline .story_timeline_wrapper .story_timeline_text,
+            .story_timeline .story_timeline_wrapper .story_timeline_text.text_right {
+                padding: 90px 15px 45px;
+            }
+            .story_timeline_wrapper {
+                padding-top: 0;
+            }
+            /* ---------------------- story page ends ---------------------- */
+            /* --------------------------------- global --------------------------------- */
+            h4 {
+                font-size: 35px;
+            }
+            h5 {
+                font-size: 30px;
+            }
+            h6 {
+                font-size: 18px;
+            }
+            /* --------------------------------- global --------------------------------- */
+        }
+    }
+    /* ------------------------- footer css ends ------------------------- */
+    section,
+    .section {
+        overflow: hidden;
+    }
+    /* --------------------------- navbar starts --------------------------- */
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .mobile-menu-top {
+        padding: 10px;
+    }
+    header .nav-item .dropdown-item {
+        color: var(--color-white);
+        opacity: 0.8;
+    }
+    header .dropdown-item.active,
+    header .dropdown-item:active {
+        background-color: transparent;
+    }
+    .dropdown-menu.megamenu .col-12 {
+        margin: 0 !important;
+    }
+    .dropdown-menu li:last-child {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .dropdown-menu.megamenu h6.text_orange {
+        margin-bottom: 20px !important;
+    }
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+    .mobile-menu-top .navbar-collapse {
+        border-top: 1px solid var(--color-orange);
+        border-radius: 0 !important;
+    }
+    header .nav-item .dropdown-item {
+        padding: 5px 0;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .dropdown-menu.megamenu,
+    .navbar-nav .dropdown-menu {
+        overflow-y: auto;
+        max-height: 250px;
+        background: transparent;
+        padding-right: 0;
+        padding-top: 0;
+        padding-left: 12px;
+        box-shadow: none;
+        border-left: 3px solid var(--color-orange);
+        border-top: none;
+        margin-left: 30px;
+        margin-bottom: 12px;
+    }
+    .col-megamenu .title {
+        color: var(--color-white);
+    }
+    .col-megamenu ul li a {
+        color: var(--color-white);
+        opacity: 0.8;
+        font-size: 15px;
+        padding: 0;
+    }
+    .col-megamenu ul li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        line-height: 35px;
+    }
+    .dropdown-menu.megamenu::before {
+        display: none;
+    }
+    .navbar-dark .navbar-nav .nav-link:focus,
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: var(--color-orange);
+        font-weight: 600;
+    }
+    header nav.navbar.navbar.fixed-top {
+        background-color: var(--color-green);
+    }
+    .dropdown-menu li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    /* nav menu ul scroll starts */
+    .dropdown-menu.megamenu::-webkit-scrollbar {
+        width: 3px;
+    }
+    .dropdown-menu.megamenu::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.8);
+    }
+    .dropdown-menu.megamenu::-webkit-scrollbar-thumb {
+        background: var(--color-orange);
+    }
+    .dropdown-menu.megamenu::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    /* nav menu ul scroll ends */
+    .navbar-nav .nav-item .nav-link {
+        padding: 7px 8px;
+    }
+    .navbar-toggler-img {
+        height: 20px;
+    }
+    .dropdown-menu.megamenu h6 {
+        font-size: 18px;
+    }
+    .col-megamenu ul li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        line-height: initial;
+        padding: 5px 0;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 7px 8px;
+    }
+    /* --------------------------- navbar ends --------------------------- */
+    /* ------------------------- home page starts ------------------------- */
+    .video_sec {
+        height: 400px;
+    }
+    .wed_details_content.first:before {
+        width: 350px;
+        height: 350px;
+        top: -100px;
+        left: -180px;
+    }
+    .wed_details_content.last:before {
+        right: -130px;
+        bottom: -110px;
+        width: 350px;
+        height: 350px;
+    }
+    .wed_details_content img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .getting_married_text h4 {
+        font-size: 30px;
+    }
+    /* ------------------------- home page ends ------------------------- */
+    /* ------------------------- about page starts ------------------------- */
+    .plan-group-top {
+        margin-top: 0;
+        justify-content: center;
+    }
+    .plan-card-col {
+        margin-top: 36px;
+    }
+    .page-title::before {
+        bottom: -80px;
+        right: -140px;
+    }
+    .about-progress-inner {
+        max-height: unset;
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .progress-left {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .progress-value-wrapper .examples {
+        padding: 5px 0;
+    }
+    .c-about-progress-top .progress-right {
+        width: 100%;
+    }
+    .progress-main-wrapper {
+        padding: 50px 20px;
+    }
+    .mb0 {
+        margin-bottom: 0;
+    }
+    .c-about-progress-top {
+        overflow: visible;
+    }
+    .c-about-progress-top::before {
+        bottom: -50px;
+        right: 0;
+        opacity: 0.5;
+    }
+    .about-getting-married {
+        max-width: 100%;
+    }
+    .about-progress {
+        padding-right: 60px;
+        height: auto;
+    }
+    .c-about-progress-top {
+        padding-top: 0;
+    }
+    .page-title {
+        min-height: 380px;
+    }
+    .couple-container {
+        max-width: calc(100% - 50px);
+    }
+    .cd-992-none {
+        display: none;
+    }
+    .cd-992-block {
+        display: block;
+    }
+    .c-about-progress-top {
+        padding-bottom: 0;
+    }
+    .progress-left {
+        order: 2;
+    }
+    .moments-card-left {
+        max-width: 100%;
+    }
+    .our-moments-wrapper::before {
+        left: -50%;
+        top: -5%;
+    }
+    .moments-main {
+        padding-top: 50px;
+    }
+    .our-moments-wrapper::after {
+        right: -57%;
+        bottom: -51%;
+    }
+    /* ------------------------- about page ends ------------------------- */
+    /* ------------------------- story page starts ------------------------- */
+    .m-flex {
+        flex-direction: column;
+    }
+    .story_couple .story_couple_text p {
+        max-width: 100%;
+    }
+    .story_couple .story_couple_text h4 {
+        max-width: 100%;
+    }
+    .story_name {
+        padding-top: 0;
+    }
+    /* timeline */
+    .story_timeline .story_timeline_wrapper .story_timeline_text {
+        width: 80%;
+        order: 2;
+        text-align: center !important;
+        padding: 90px 50px 45px;
+    }
+    .story_timeline_wrapper {
+        flex-direction: column;
+    }
+    .story_timeline .story_timeline_wrapper .story_timeline_image {
+        width: 50%;
+        height: auto;
+        transform: unset;
+        right: unset;
+        bottom: -50px;
+    }
+    .story_timeline .story_timeline_wrapper .story_timeline_image .timeline_image {
+        height: auto;
+    }
+    /* temp font size */
+    .story_timeline .story_timeline_wrapper .story_timeline_image .timeline_image H4 {
+        font-size: 30px;
+    }
+    /* temp font size */
+    .story_timeline_text.text_left::before {
+        right: -63px;
+        top: -178px;
+        transform: scaleX(1);
+    }
+    .story_timeline .story_timeline_wrapper .story_timeline_image.image_left {
+        width: 50%;
+        height: auto;
+        transform: unset;
+        left: unset;
+        bottom: -50px;
+    }
+    .story_timeline_text.text_right::before {
+        left: -63px;
+        top: -178px;
+        transform: scaleX(-1);
+    }
+    .story_timeline .story_timeline_wrapper .story_timeline_text.text_right {
+        padding: 90px 50px 45px;
+    }
+    .story_timeline_wrapper {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    /* timeline */
+    /* newsletter */
+    .newsletter p {
+        margin-bottom: 20px;
+    }
+    /* newsletter */
+    .card_rsvp_container {
+        transform: scale(0.9) translate(0, 50px) !important;
+    }
+    .rsvp_icon_content {
+        max-width: 150px;
+        height: 150px;
+        margin-top: -52%;
+    }
+    /* ------------------------- story page ends ------------------------- */
+    /* --------------------- event details page starts --------------------- */
+    .event_services_adjust .progress-main-wrapper {
+        height: 450px;
+        display: block;
+        width: calc(100% - 60px);
+    }
+    .about-progress {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+    .about-getting-married p {
+        max-width: 100%;
+    }
+    /* --------------------- event details page ends --------------------- */
+    /* --------------------------- navbar starts --------------------------- */
+    .navbar-dark .navbar-toggler {
+        border: 0;
+    }
+    div#main_nav {
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+    /* --------------------------- navbar ends --------------------------- */
+    /* -------------------------- homepage starts -------------------------- */
+    section,
+    .section {
+        overflow: hidden;
+    }
+    .about_us_bg:before {
+        width: 130px;
+        height: 240px;
+    }
+    .about_us_bg:after {
+        width: 110px;
+        height: 310px;
+    }
+    .save_date_section:before {
+        width: 90px;
+    }
+    .save_date_section:after {
+        width: 110px;
+        height: 140px;
+    }
+    .hero_text h1 {
+        font-size: 80px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    .hero_main_image {
+        max-width: 60%;
+    }
+    .hero_area .row {
+        justify-content: center;
+    }
+    .moments-card-left h4 {
+        font-size: 50px;
+    }
+    .moment-above-img {
+        bottom: -335px;
+        max-height: 456px;
+        max-width: 627px;
+    }
+    .mates_inner {
+        grid-gap: 20px;
+    }
+    .mates_inner {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .mate_single.rsvp_icon_content:after {
+        transform: translate(-50%, -50%) rotate(90deg) scale(1.0);
+    }
+    .about_us_bg:after {
+        bottom: 40px;
+    }
+    .inner_title h4 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .save_date_section h3 {
+        font-size: 40px;
+        line-height: 70px;
+    }
+    .address_content {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    /* -------------------------- homepage ends -------------------------- */
+    /* -------------------------- aboutpage starts -------------------------- */
+    .progress-value {
+        padding: 0;
+    }
+    .story_timeline .story_timeline_wrapper .story_timeline_image .timeline_image img {
+        height: auto;
+    }
+    /* -------------------------- aboutpage ends -------------------------- */
+}
+
+@media (max-width: 768px) {
+    .landing_inside h1 {
+        font-size: 110px;
+        margin-top: 30px;
+    }
+    .landing_inside .main_title h5 {
+        font-size: 20px;
+    }
+    .attendance_sec h2 {
+        font-size: 40px;
+    }
+    /* -------------------------- homepage starts -------------------------- */
+    .save_date_section:after {
+        right: -20px;
+    }
+    .save_date_section:before {
+        top: -20px;
+    }
+    .about_us_bg .main_title {
+        margin-bottom: 10px;
+    }
+    .hero_main_image {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        margin: auto;
+    }
+    .animate_flowers_content_left img,
+    .animate_flowers_content_right img {
+        width: 180px;
+    }
+    .getting_married_text h2:after,
+    .getting_married_text h2:before {
+        width: 60px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .address_content {
+        font-weight: 400;
+    }
+    .wed_details_content_left_text {
+        align-items: flex-start;
+        text-align: left;
+    }
+    .wed_details_content.last:before {
+        right: -140px;
+        bottom: -60px;
+        width: 350px;
+        height: 350px;
+    }
+    .rsvp_sec:before,
+    .rsvp_sec:after {
+        width: 20%;
+        height: 100px;
+    }
+    #countdown {
+        position: relative;
+        z-index: 2;
+    }
+    .save_date_section:after {
+        width: 90px;
+        height: 90px;
+        opacity: 0.7;
+    }
+    /* .main_title span {
+        font-size: 50px;
+    } */
+    /* .main_title h5 {
+        font-size: 25px;
+        bottom: -15px;
+    } */
+    .wed_details_content.first {
+        margin-top: 40px;
+    }
+    .about_us_bg:after {
+        bottom: 0;
+    }
+    /* -------------------------- homepage ends -------------------------- */
+    /* ------------------------- about page starts ------------------------- */
+    .main_title h3 {
+        margin-top: -40px;
+    }
+    .couple-container {
+        max-width: 100%;
+    }
+    .about-couple::before {
+        width: 154px;
+        height: 130px;
+    }
+    section,
+    .section {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .mates_inner {
+        grid-template-columns: 1fr 1fr;
+    }
+    .couple-right {
+        margin-top: 25px;
+    }
+    .more_text h5 {
+        /* bottom: -35px; */
+    }
+    .page-title::before {
+        bottom: -100px;
+        right: -140px;
+        transform: scale(0.6);
+    }
+    .m-couple-flex {
+        flex-direction: column;
+        margin-top: 75px;
+    }
+    .couple_image {
+        width: 250px;
+    }
+    /* ------------------------- about page ends ------------------------- */
+    /* ---------------------- Blog Masonry page start --------------------- */
+    .grid {
+        width: 50%;
+    }
+    .blog_masonry {
+        column-count: 2;
+    }
+    /* ---------------------- Blog Masonry page end --------------------- */
+    /* ---------------------- story masonary page starts --------------------- */
+    .story_timeline .story_timeline_wrapper .story_timeline_text {
+        width: 100%;
+        padding: 90px 50px 45px;
+    }
+    .story_timeline .story_timeline_wrapper .story_timeline_image {
+        width: 70%;
+    }
+    .story_timeline_text.text_left::before {
+        right: -143px;
+    }
+    .story_timeline .story_timeline_wrapper .story_timeline_image.image_left {
+        width: 70%;
+    }
+    .story_timeline_text.text_right::before {
+        left: -143px;
+    }
+    .our_love_story {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    section,
+    .section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .story_name {
+        padding-bottom: 50px;
+    }
+    /* ---------------------- story masonary page end --------------------- */
+    /* ---------------------- rsvp page starts --------------------- */
+    .rsvp_icon_content {
+        max-width: 150px;
+        height: 150px;
+        margin-top: -15%;
+    }
+    .celebration_space_adjust {
+        margin-top: 0;
+    }
+    .card_rsvp_container {
+        transform: scale(0.9) translate(0, 30px);
+        margin-bottom: 30px;
+    }
+    body .celebrate_sec {
+        padding: inherit;
+        padding-bottom: inherit;
+        padding-top: 40px;
+    }
+    .celebrate_it_main {
+        margin-bottom: 40px;
+    }
+    body .rsvp_full_container.about_single_content {
+        margin-top: 90px;
+        height: inherit;
+    }
+    /* ---------------------- rsvp page ends --------------------- */
+    /* -------------------------- blogpage starts -------------------------- */
+    .blog_single_content h2 {
+        color: var(--color-green);
+        text-align: left;
+    }
+    /* -------------------------- blogpage ends -------------------------- */
+    /* --------------------- event details page starts --------------------- */
+    .reception_main_image {
+        margin-top: 50px;
+    }
+    .blog_single_actions {
+        display: block;
+    }
+    .blog_action_content img {
+        width: 20px;
+    }
+    .blog_action_content {
+        margin-bottom: 10px;
+    }
+    .event_slide_sec #gallery_slides {
+        margin-top: 40px;
+    }
+    .event_slide_sec {
+        padding-top: 40px !important;
+    }
+    /* --------------------- event details page ends --------------------- */
+}
+
+@media (max-width: 700px) {
+    .couple_image {
+        width: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .full-blockquate:before {
+        top: -10px;
+        background-size: 30px;
+    }
+    .orange-accordions {
+        margin-top: 30px;
+    }
+    /* -------------------------- Start Home Page -------------------------- */
+    .order22 {
+        order: 2;
+    }
+    .order11 {
+        order: 1;
+    }
+    .getting_married_text h4:before,
+    .getting_married_text h4:after {
+        width: 50px;
+        height: 25px;
+    }
+    .getting_married_text h4 {
+        font-size: 25px;
+    }
+    .save_date_section h3 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    /* -------------------------- Start Home Page -------------------------- */
+    /* ------------------------------ about us page ----------------------------- */
+    .page-title {
+        min-height: 340px;
+    }
+    /* ------------------------------ about us page ----------------------------- */
+}
+
+@media (max-width: 576px) {
+    .scroll_page {
+        margin-bottom: 30px;
+    }
+    .landing_inside h1 {
+        font-size: 80px;
+        margin-top: 50px;
+    }
+    .landing_inside .main_title h5 {
+        font-size: 16px;
+    }
+    .scroll_page,
+    .scroll_page img.page {
+        height: 500px;
+    }
+    /* --------------------------------- Blockquote --------------------------------- */
+    .blog_element_wrapper .blog_element_wrapper {
+        padding: 30px 0 30px 0;
+    }
+    .blog_element_wrapper .blog_card_container {
+        margin-top: 0px;
+    }
+    /* --------------------------------- Blockquote --------------------------------- */
+    /* --------------------------------- Accordion --------------------------------- */
+    .accordion-button {
+        font-size: 15px !important;
+        padding: 15px !important;
+    }
+    .accordion-body {
+        padding: 15px !important;
+    }
+    /* --------------------------------- Accordion --------------------------------- */
+    /* ------------------------- footer css starts ------------------------- */
+    .first_let,
+    .last_let {
+        font-size: 38px;
+    }
+    .name_footer {
+        height: 50px;
+    }
+    .and {
+        color: var(--color-orange);
+        display: flex;
+        align-self: center;
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .footer_main img {
+        width: 150px;
+    }
+    .name_footer {
+        height: 70px;
+    }
+    .footer_main:after {
+        width: 150px;
+        height: 190px;
+        left: 70%;
+    }
+    .footer_main:before {
+        width: 150px;
+        height: 190px;
+        right: 70%;
+    }
+    /* --------------------------- footer ends --------------------------- */
+    /* ------------------------- home page starts ------------------------- */
+    .save_date_section:before,
+    .save_date_section:after {
+        opacity: 0.4;
+    }
+    .mates_inner {
+        grid-template-columns: 2fr 2fr;
+    }
+    .hero_main_image {
+        width: 80%;
+    }
+    .getting_married_text h2:after,
+    .getting_married_text h2:before {
+        width: 40px;
+        height: 25px;
+        margin-left: 10px;
+    }
+    .about_us_bg:before {
+        width: 80px;
+        height: 140px;
+    }
+    .main_title h3:before,
+    .main_title h3:after {
+        width: 60px;
+        height: 25px;
+    }
+    .save_date_section h3 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+    .about_us_bg:after {
+        width: 70px;
+        height: 180px;
+    }
+    .wed_details_content {
+        padding: 0 10px;
+    }
+    .wed_details_content.last:before {
+        right: -120px;
+        width: 250px;
+        height: 160px;
+        bottom: -60px;
+    }
+    .video_sec .modal-content {
+        height: 50vh;
+    }
+    .form_main {
+        padding: 25px 10px;
+    }
+    .rsvp_sec:before {
+        top: 30px;
+        transform: scale(1.5) rotate(90deg);
+    }
+    .rsvp_sec:after {
+        top: calc(100% - 100px);
+        transform: scale(1.5) rotate(89deg);
+    }
+    .getting_married_text h4 {
+        font-size: 20px;
+    }
+    .address_content {
+        font-size: 15px;
+    }
+    .attendance_sec h2 {
+        font-size: 40px;
+    }
+    .hero_main_image {
+        max-width: 90%;
+    }
+    .order22 {
+        order: 2;
+    }
+    .order11 {
+        order: 1;
+    }
+    .video_sec {
+        margin-top: 0 !important;
+    }
+    .attendance_sec {
+        padding: 50px 0;
+    }
+    .video_sec {
+        height: 250px;
+    }
+    /* ------------------------- home page ends ------------------------- */
+    /* ------------------------- about page starts ------------------------- */
+    .mate_details {
+        width: calc(100% - 18px);
+        height: calc(100% - 18px);
+    }
+    .our-moments-wrapper {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .moment-above-img {
+        bottom: 0;
+        max-height: inherit;
+        max-width: 100%;
+        position: relative;
+        height: auto;
+    }
+    .moments-main {
+        padding-top: 50px;
+    }
+    .moments-main {
+        padding-top: 30px;
+    }
+    .couple_image {
+        width: 150px;
+    }
+    .couple-center .footer_main {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        position: absolute;
+        z-index: 4;
+        bottom: -5px;
+        left: 0;
+        right: 0;
+    }
+    .couple-container {
+        max-width: calc(100% - 100px);
+    }
+    .couple-left,
+    .couple-right {
+        width: 90%;
+    }
+    .couple-container {
+        padding: 0 10px;
+    }
+    .couple-right,
+    .couple-left {
+        display: flex;
+        flex-direction: column;
+    }
+    .couple-left {
+        margin-bottom: 20px;
+    }
+    .about-couple .couple-left h5,
+    .about-couple .couple-right h5 {
+        margin-bottom: 0;
+    }
+    .about-couple .couple-left h4,
+    .about-couple .couple-right h4 {
+        display: inline-block;
+    }
+    .about-couple .couple-left h4::before {
+        background-image: url(../images/about/ac-small-leaf-right.png);
+        right: 185px;
+        left: unset;
+    }
+    .about-couple .couple-right h4::before {
+        background-image: url(../images/object/ac-small-leaf-left.png);
+        left: 175px;
+        right: unset;
+    }
+    .our-moments-wrapper::before {
+        left: -50%;
+        top: -20%;
+        transform: scale(0.5);
+    }
+    .our-moments-wrapper::after {
+        right: -57%;
+        bottom: -25%;
+        transform: scale(0.5);
+    }
+    .mates_inner .rsvp_icon_content {
+        height: 180px;
+        width: 180px;
+    }
+    .about-progress {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .progress-value-wrapper .examples {
+        padding: 5px 0;
+    }
+    /* ------------------------- about page ends ------------------------- */
+    /* ---------------------- Blog Masonry page start --------------------- */
+    .blog_masonry {
+        column-count: 1;
+    }
+    .grid {
+        width: 100%;
+    }
+    /* ---------------------- Blog Masonry page end --------------------- */
+    /* ----------------------- blog grid page starts ----------------------- */
+    .blog_card_container {
+        grid-template-columns: 1fr;
+    }
+    /* ----------------------- blog grid page ends ----------------------- */
+    /* ----------------------- blog single page start ---------------------- */
+    .blogs_container.only_blog_text_adjust:after {
+        height: 30px;
+        width: 50px;
+        top: 22px;
+        right: 12px;
+        background-size: contain;
+    }
+    .blog_single_actions {
+        flex-wrap: wrap;
+    }
+    .blog_action_content {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .video-play-button {
+        width: 17px;
+        height: 24px;
+        padding: 12px 14px 14px 17px;
+    }
+    .video-play-button:before {
+        width: 70px;
+        height: 70px;
+    }
+    .video-play-button:after {
+        width: 70px;
+        height: 70px;
+    }
+    .blog_single_actions {
+        margin: 15px 0;
+    }
+    .blogs_container:not(:last-child) {
+        margin: 25px 0;
+    }
+    .blogs_container.only_blog_text_adjust {
+        padding: 20px;
+    }
+    .only_blog_text_adjust .blog_single_title {
+        margin-top: 0;
+    }
+    /* ----------------------- blog single page end ---------------------- */
+    /* ----------------------- story page starts ---------------------- */
+    .story_timeline .story_timeline_wrapper .story_timeline_text {
+        width: 95%;
+        padding: 90px 30px 45px;
+    }
+    .story_timeline .story_timeline_wrapper .story_timeline_image .timeline_image H4 {
+        font-size: 22px;
+    }
+    .story_name {
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+    .story_couple .story_couple_text {
+        padding: 60px 10px;
+    }
+    .story .story_name_text h2 {
+        font-size: 50px;
+    }
+    .story .story_name_text h2 span {
+        font-size: 40px;
+    }
+    .story .story_name_text h5 {
+        font-size: 20px;
+    }
+    /* ----------------------- story page end ---------------------- */
+    /* ----------------------- event details page starts ---------------------- */
+    .gallery_desc {
+        margin: 10px;
+    }
+    .event_services_adjust .progress-main-wrapper {
+        height: 190px;
+    }
+    .about-progress {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 30px;
+    }
+    .blog_action_content {
+        align-items: flex-start;
+    }
+    section,
+    .section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /* ----------------------- event details page ends ---------------------- */
+    .hero_image {
+        width: 250px;
+        height: 250px;
+    }
+    /* --------------------- page title starts --------------------- */
+    .page-title::before {
+        bottom: -144px;
+        right: -185px;
+    }
+    /* --------------------- page title ends --------------------- */
+    /* --------------------- custom padding starts --------------------- */
+    .c-container-padding {
+        padding: 0 15px;
+    }
+    /* --------------------- custom padding starts --------------------- */
+    /* ---------------------- Blog Masonry page start --------------------- */
+    .text_container_masonary {
+        padding: 20px;
+    }
+    /* ---------------------- Blog Masonry page endt --------------------- */
+    /* -------------------------- blog page starts ------------------------- */
+    .blog_single_content {
+        padding: 15px;
+        margin: 0;
+        width: 100%;
+    }
+    .blog_date {
+        right: 5px;
+    }
+    /* -------------------------- blog page ends ------------------------- */
+    /* -------------------------- RSVP page starts ------------------------- */
+    .celebrate_sec .main_title {
+        margin-bottom: 20px;
+    }
+    body .celebrate_sec {
+        padding-top: 20px;
+    }
+    .celebrate_it_main {
+        margin-bottom: 20px;
+    }
+    .card_rsvp_container {
+        margin-bottom: 60px;
+    }
+    /* -------------------------- RSVP page ends ------------------------- */
+    /* -------------------------- Cover Boxes starts ------------------------- */
+    .cover_content_main ul li .cover_content {
+        display: block;
+    }
+    .cover_content_main ul li .cover_content .image_cover {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cover_content_main ul li .image_cover_content {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cover_content_main ul li .cover_content .image_cover_content {
+        width: 100%;
+        padding: 0;
+    }
+    /* -------------------------- Cover Boxes ends ------------------------- */
+}
+
+@media (max-width: 480px) {
+    .hero_image:before {
+        width: 100px;
+        height: 100px;
+        top: 0;
+        left: -40px;
+    }
+    .getting_married_text h4 {
+        margin-top: 10px;
+    }
+    .home_only .hero_area {
+        top: 50%;
+    }
+    .hero_image:after {
+        width: 100px;
+        height: 100px;
+        bottom: 0;
+        right: -50px;
+    }
+    .couple-center .footer_main img {
+        max-width: 50%;
+    }
+    .m-ac-couple {
+        width: 100% !important;
+    }
+    .about-couple::before {
+        width: 100px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 414px) {
+    .landing_story.story_couple .card_right_design img {
+        top: -40px;
+        width: 320px;
+        right: -70px;
+    }
+    .scroll_page {
+        margin-bottom: 15px;
+    }
+    .navbar-brand h5 {
+        width: 238px;
+    }
+    .landing_inside .main_title h5 {
+        color: var(--color-darkgreen);
+    }
+    .landing_inside h1 {
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    /* ------------------------ Blockquote starts ----------------------- */
+    .full-blockquate:before {
+        top: -20px;
+        background-size: 28px;
+        width: 30px;
+        right: 0;
+    }
+    /* ------------------------ Blockquote starts ----------------------- */
+    .story .story_name_text h2 span {
+        display: block;
+    }
+    .attendance_sec h2 {
+        font-size: 24px;
+    }
+    .attendance_sec h6 {
+        font-size: 13px;
+    }
+    /* ------------------------ about us page starts ----------------------- */
+    .mates_inner {
+        grid-template-columns: 1fr;
+    }
+    .about-couple .couple-left h5::before {
+        height: 23px;
+        left: -40px;
+        top: 5px;
+        background-size: contain;
+    }
+    .first_let,
+    .last_let {
+        font-size: 35px;
+    }
+    .name_footer {
+        height: 50px;
+    }
+    .and {
+        font-size: 14px;
+    }
+    .about-couple .couple-right h5::before {
+        height: 23px;
+        right: -38px;
+        top: 5px;
+        background-size: contain;
+    }
+    .mates_inner .rsvp_icon_content {
+        height: 280px;
+        width: 280px;
+    }
+    .mate_single.rsvp_icon_content:after {
+        left: calc(50% + -8px);
+    }
+    .mate_single.rsvp_icon_content:hover:after {
+        top: calc(50% + -8px);
+    }
+    /* ------------------------ about us page ends ----------------------- */
+    /* ------------------------ rsvp page starts ----------------------- */
+    .rsvp_adust .rsvp_icon_content {
+        max-width: 200px;
+        height: 200px;
+        margin-top: -36%;
+    }
+    .about_single_content.rsvp_adust.first {
+        margin-top: 150px;
+    }
+    .inner_form {
+        padding: 15px;
+    }
+    .form_radio {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .inner_input:not(:last-child) {
+        margin: 10px 0;
+    }
+    .card_right_design {
+        left: 25%;
+    }
+    .about_single_content.rsvp_adust img {
+        height: 70px;
+    }
+    /* ------------------------ rsvp page ends ----------------------- */
+    /* ------------------------ gallery tabs page starts ----------------------- */
+    .gallery_tab_inside .nav-tabs {
+        display: grid;
+        grid-template-columns: 1fr;
+        background: var(color-white);
+        width: 100%;
+    }
+    .gallery_tab_inside .nav-tabs li {
+        flex: 1;
+        margin: 35px 0;
+        padding: 15px;
+    }
+    .gallery_tab_inside .nav-tabs li {
+        background: var(--color-lightgrey);
+    }
+    /* ------------------------ gallery tabs page ends ----------------------- */
+}
+
+@media (max-width: 390px) {
+    /* ------------------------- footer css starts ------------------------- */
+    .first_let,
+    .last_let {
+        font-size: 42px;
+    }
+    /* ------------------------- footer css ends ------------------------- */
+    /* ------------------------- home page starts ------------------------- */
+    .main_title h3:before,
+    .main_title h3:after {
+        width: 35px;
+        height: 25px;
+    }
+    .animate_flowers_content_left img,
+    .animate_flowers_content_right img {
+        width: 120px;
+    }
+    .hero_image {
+        width: 150px;
+        height: 150px;
+    }
+    .hero_text h1 {
+        font-size: 60px;
+    }
+    /* ------------------------- home page ends ------------------------- */
+    /* ------------------------- footer css starts ------------------------- */
+    .footer_main img {
+        width: 150px;
+    }
+    .footer_main:after,
+    .footer_main:before {
+        width: 110px;
+    }
+    /* ------------------------- footer css ends ------------------------- */
+    /* ------------------------- about page starts ------------------------- */
+    .about-couple .couple-left h4::before {
+        background-image: url(../images/about/ac-small-leaf-right.png);
+        right: 140px;
+        left: unset;
+    }
+    .couple-container {
+        max-width: calc(100% - 50px);
+    }
+    .couple-center .footer_main img {
+        width: 40%;
+    }
+    .name_footer {
+        height: 50px;
+    }
+    .couple_image {
+        width: 120px;
+    }
+    .about-couple .couple-left h5::before {
+        height: 15px;
+        left: -35px;
+        top: 10px;
+    }
+    .about-couple .couple-right h5::before {
+        height: 15px;
+        right: -38px;
+        top: 10px;
+    }
+    .first_let,
+    .last_let {
+        font-size: 32px;
+    }
+    .and {
+        font-size: 13px;
+    }
+    .couple-left {
+        margin-top: 50px;
+    }
+    .about-couple .couple-right h4::before {
+        background-image: url(../images/object/ac-small-leaf-left.png);
+        left: 130px;
+        right: unset;
+    }
+    .moments-card-left h4 {
+        font-size: 40px;
+    }
+    .moments-card-left p {
+        font-size: 16px;
+    }
+    .about_single_sep_horizontal {
+        margin-bottom: 18px;
+        margin-top: 18px;
+    }
+    .our-moments-wrapper::after {
+        right: -100%;
+        bottom: -36%;
+        transform: scale(0.5);
+    }
+    .bridesmaids-bottom {
+        bottom: -38px !important;
+    }
+    /* ------------------------- about page ends ------------------------- */
+    /* ---------------------- blog single page starts ---------------------- */
+    .pagination {
+        flex-wrap: wrap;
+    }
+    .image_with_text .auth_date {
+        font-size: 13px;
+    }
+    /* ---------------------- blog single page ends ---------------------- */
+    /* ---------------------- story page starts ---------------------- */
+    .story_timeline .story_timeline_wrapper .story_timeline_text,
+    .story_timeline .story_timeline_wrapper .story_timeline_text.text_right {
+        padding: 90px 15px 45px;
+    }
+    .story_timeline_wrapper {
+        padding-top: 0;
+    }
+    /* ---------------------- story page ends ---------------------- */
+    /* --------------------------------- global --------------------------------- */
+    h4 {
+        font-size: 35px;
+    }
+    h5 {
+        font-size: 30px;
+    }
+    h6 {
+        font-size: 18px;
+    }
+    /* --------------------------------- global --------------------------------- */
+}

@@ -1,0 +1,28 @@
+/* ------------------------ Variable Define -------------------------------- */
+
+:root {
+    --color-black: #000000;
+    --color-orange: #ff8383;
+    /* text and border */
+    --color-white: #fff;
+    /* text */
+    --color-green: #a64343;
+    /* text */
+    --color-darkgreen: #0A3B37;
+    /* Background Color  */
+    --color-darkgrey: #A5B7B6;
+    --color-blackgrey: #912f2f;
+    /* heading tag  */
+    --color-lightgrey: #ffe1e1;
+    /* page title text abd background */
+    --color-pera_lightgrey: #a64343;
+    /* P tag text Color */
+    --overlay-color: #603333e5;
+    --button-bg: #7a3737;
+    --button-border: #a64343;
+    --button-hover-color: #a64343;
+    --photo-overlay: #a6434393;
+    --box-shadow: #2b5551b3;
+}
+
+/* ------------------------ Variable Define -------------------------------- */

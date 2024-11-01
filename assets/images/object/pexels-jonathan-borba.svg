@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="505.539" height="462.943" viewBox="0 0 505.539 462.943">
+  <defs>
+    <filter id="pexels-jonathan-borba-11643621" x="0" y="0" width="505.539" height="462.943" filterUnits="userSpaceOnUse">
+      <feOffset dy="23" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feFlood flood-color="#55552b" flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#pexels-jonathan-borba-11643621)">
+    <path id="pexels-jonathan-borba-11643621-2" data-name="pexels-jonathan-borba-11643621" d="M253.154,0l84.385,147.472L253.154,294.943H84.385L0,147.472,84.385,0Z" transform="translate(84 61)" fill="#fff"/>
+  </g>
+</svg>
