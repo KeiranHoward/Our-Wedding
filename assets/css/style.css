@@ -808,6 +808,10 @@ div#countdown ul li span {
     object-fit: cover;
 }
 
+/* .square-img {
+    height: 500px;
+    object-fit: cover;
+} */
 
 /*=========================== Wedding details ends ============================*/
 
@@ -1107,7 +1111,7 @@ body .form-check-input:focus {
 /*=========================== About page starts ============================*/
 
 .page-title {
-    background-image: url(../images/bg/about.png);
+    background-image: url(../images/Milton-Park-Bath-house.jpg);
     background-position: center;
     background-size: cover;
     min-height: 500px;
