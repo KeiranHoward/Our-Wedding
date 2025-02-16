@@ -567,7 +567,7 @@ p {
 
 .main_title h5:before {
   content: "";
-  background-image: url(../images/object/orange-leaf-left.png);
+  /* background-image: url(../images/object/orange-leaf-left.png); */
   background-repeat: no-repeat;
   width: 100px;
   background-size: contain;
@@ -578,7 +578,7 @@ p {
 
 .main_title h5:after {
   content: "";
-  background-image: url(../images/object/orange-leaf-right.png);
+  /* background-image: url(../images/object/orange-leaf-right.png); */
   background-repeat: no-repeat;
   width: 100px;
   background-size: contain;
