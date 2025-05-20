@@ -23,22 +23,22 @@ if (indexPage) {
         }
         //end
 
-        const countDown = new Date(birthday).getTime(),
+        const countDown = new Date("2025-09-26T15:00:00").getTime(),
             x = setInterval(function() {
 
                 const now = new Date().getTime(),
                     distance = countDown - now;
 
                 document.getElementById("days").innerText = Math.floor(distance / (day)),
-                    document.getElementById("hours").innerText = (Math.floor((distance % (day)) / (hour))).toLocaleString('en-US', {
+                    document.getElementById("hours").innerText = (Math.floor((distance % (day)) / (hour))).toLocaleString('en-AU', {
                         minimumIntegerDigits: 2,
                         useGrouping: false
                     }),
-                    document.getElementById("minutes").innerText = (Math.floor((distance % (hour)) / (minute))).toLocaleString('en-US', {
+                    document.getElementById("minutes").innerText = (Math.floor((distance % (hour)) / (minute))).toLocaleString('en-AU', {
                         minimumIntegerDigits: 2,
                         useGrouping: false
                     }),
-                    document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second).toLocaleString('en-US', {
+                    document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second).toLocaleString('en-AU', {
                         minimumIntegerDigits: 2,
                         useGrouping: false
                     });
@@ -73,7 +73,7 @@ if (countdown1) {
             mm = String(today.getMonth() + 01).padStart(2, "0"),
             yyyy = today.getFullYear(),
             nextYear = yyyy + 1,
-            dayMonth = "10/30/",
+            dayMonth = "09/26/",
             birthday = dayMonth + yyyy;
         // console.log(String(today.getDate()));
 
