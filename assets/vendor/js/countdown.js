@@ -14,7 +14,7 @@ if (indexPage) {
             mm = String(today.getMonth() + 1).padStart(2, "0"),
             yyyy = today.getFullYear(),
             nextYear = yyyy + 1,
-            dayMonth = "09/26/",
+            dayMonth = "10/07/",
             birthday = dayMonth + yyyy;
 
         today = mm + "/" + dd + "/" + yyyy;
@@ -23,7 +23,7 @@ if (indexPage) {
         }
         //end
 
-        const countDown = new Date("2025-09-26T15:00:00").getTime(),
+        const countDown = new Date("2025-10-07T15:00:00").getTime(),
             x = setInterval(function() {
 
                 const now = new Date().getTime(),
@@ -73,7 +73,7 @@ if (countdown1) {
             mm = String(today.getMonth() + 01).padStart(2, "0"),
             yyyy = today.getFullYear(),
             nextYear = yyyy + 1,
-            dayMonth = "09/26/",
+            dayMonth = "10/07/",
             birthday = dayMonth + yyyy;
         // console.log(String(today.getDate()));
 
