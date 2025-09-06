@@ -663,7 +663,7 @@ header nav.navbar.navbar.fixed-top {
 /*=========================== Save date starts ============================*/
 
 .save_date_section {
-    background-image: url(../images/Milton-Park-2023-005.avif);
+    background-image: url(../images/bendooley/Bendooley-0813.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -1111,13 +1111,14 @@ body .form-check-input:focus {
 /*=========================== About page starts ============================*/
 
 .page-title {
-    background-image: url(../images/Milton-Park-Bath-house.jpg);
+    background-image: url(../images/bendooley/Wedding\ photos.webp);
     background-position: center;
     background-size: cover;
     min-height: 500px;
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
+    object-fit: scale-down;
 }
 
 .about-overlay-banner {
